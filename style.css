@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.Container
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.Container .List1
+{
+   
+    height: 20%;
+    width: 100%;
+    color: white;
+    background-color: black;
+ border-bottom: solid white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ cursor: pointer;
+
+}
+
+.List1 img
+{
+    height: 5vmax;
+    width: 5vmax;
+    border-radius: 50%;
+    margin-left: 8vmax;
+    position: absolute;
+    transform: translate(-50% -50%);
+    transition: 1s linear;
+    cursor: pointer;
+}
